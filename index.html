@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MotoSpeed</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+<nav id="nav" class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">MOTO<span>SPEED</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto gap-lg-1">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="componentes/nosotros.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="componentes/catalogo.html">Catálogo</a></li>
+        <li class="nav-item"><a class="nav-link" href="componentes/servicios.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="componentes/contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main>
+<!-- CARRUSEL -->
+<section aria-label="Hero principal">
+<div id="hero" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <div class="cbg" style="background-image:url('img/carru1.avif');" role="img" aria-label="Moto deportiva"></div>
+      <div class="ccont container">
+        <p class="ctag al d1">— Nueva temporada 2026</p>
+        <h1 class="chead au d2">Nace para<br>la pista</h1>
+        <p class="csub au d3">Potencia sin compromiso. Aerodinámica extrema. Tecnología de MotoGP en tus manos.</p>
+        <div class="d-flex gap-3 flex-wrap au d4">
+          <a href="#" class="btn-ms">Ver catálogo <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="slide-n">01 / 03</div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <div class="cbg" style="background-image:url('img/carru2.avif');" role="img" aria-label="Moto adventure"></div>
+      <div class="ccont container">
+        <p class="ctag">— Todo terreno</p>
+        <h1 class="chead">Sin límites<br>de ruta</h1>
+        <p class="csub">Conquista el asfalto, la grava y la montaña. Motos adventure para el explorador que llevas dentro.</p>
+        <div class="d-flex gap-3 flex-wrap">
+          <a href="#" class="btn-ms">Ver adventure <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="slide-n">02 / 03</div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <div class="cbg" style="background-image:url('img/carru3.avif');" role="img" aria-label="Moto urbana"></div>
+      <div class="ccont container">
+        <p class="ctag">— Movilidad urbana</p>
+        <h1 class="chead">La ciudad<br>es tuya</h1>
+        <p class="csub">Ligeras, ágiles y eficientes. Scooters y urbanas para moverse diferente cada día.</p>
+        <div class="d-flex gap-3 flex-wrap">
+          <a href="#" class="btn-ms">Ver urbanas <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="slide-n">03 / 03</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev" aria-label="Anterior">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next" aria-label="Siguiente">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</section>
+</main>
+
+<main class="contenido">
+<section class="sec-intro" aria-labelledby="tit-intro">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6 aos">
+        <h2 class="sec-tit mb-4" id="tit-intro">GARANTÍA<br/>5.000 KM ó 1<br/>AÑO.</h2>
+        <p class="intro-body">
+         <strong>LO QUE OCURRA PRIMERO</strong>
+        </p>
+        <hr>
+        <p class="intro-body mt-3">
+          Con más de 20 años rodando, el camino de UM Motos tiene sus orígenes en Estados Unidos.
+          <br>
+          Mucho más que una marca de motocicletas de calidad mundial, en UM Motos estamos en la búsqueda constante de nuevos retos, revolucionando el concepto de “transporte” al desarrollar motocicletas con un diseño increíble a precios accesibles.
+        </p>
+        <div class="mt-4">
+          <a href="componentes/servicios.html" class="btn-ms">Servicios<i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-6 aos">
+        <img src="img/inicioimg1.webp " alt="Interior concesionario MotoSpeed" class="intro-img"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORÍAS -->
+<section class="sec-cat" aria-labelledby="tit-cat">
+  <div class="container">
+    <div class="cat-hdr">
+      <div>
+        <span class="sec-ey">Encuentra tu moto</span>
+        <h2 class="sec-tit" id="tit-cat">Categorías</h2>
+      </div>
+      <a href="componentes/catalogo.html" class="btn-ms">Ver todo <i class="bi bi-arrow-right"></i></a>
+    </div>
+    <div class="row g-3">
+      <div class="col-12 col-md-6 col-lg-3">
+        <article class="mcard aos">
+          <div class="mcard-bg" style="background-image:url('img/img1.jpg');"></div>
+          <div class="mcard-body">
+            <p class="mcard-tag">Alta performance</p>
+            <h3 class="mcard-name">Deportivas</h3>
+            <a href="componentes/catalogo.html" class="mcard-arr">Explorar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <article class="mcard aos">
+          <div class="mcard-bg" style="background-image:url('img/img2.jpg');"></div>
+          <div class="mcard-body">
+            <p class="mcard-tag">Todo terreno</p>
+            <h3 class="mcard-name">Adventure</h3>
+            <a href="componentes/catalogo.html" class="mcard-arr">Explorar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <article class="mcard aos">
+          <div class="mcard-bg" style="background-image:url('img/img3.jpg');"></div>
+          <div class="mcard-body">
+            <p class="mcard-tag">Ciudad</p>
+            <h3 class="mcard-name">Urbanas</h3>
+            <a href="componentes/catalogo.html" class="mcard-arr">Explorar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <article class="mcard aos">
+          <div class="mcard-bg" style="background-image:url('img/img4.jpg');"></div>
+          <div class="mcard-body">
+            <p class="mcard-tag">Streetfighter</p>
+            <h3 class="mcard-name">Naked</h3>
+            <a href="componentes/catalogo.html" class="mcard-arr">Explorar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESTACADOS -->
+<section class="sec-dest" aria-labelledby="tit-dest">
+  <div class="container">
+    <div class="mb-5 aos">
+      <span class="sec-ey">Selección del mes</span>
+      <h2 class="sec-tit" id="tit-dest">Destacados</h2>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-12 col-sm-6 col-xl-3">
+        <article class="pcard h-100 aos">
+          <div class="pimg" style="background-image:url('img/img5.png');background-size:cover;background-position:center;"></div>
+          <div class="pbody">
+            <p class="pmarca">Kawasaki</p>
+            <h3 class="pnom">Ninja ZX-10R</h3>
+            <div class="pspecs">
+              <div class="spec"><strong>998cc</strong>Motor</div>
+              <div class="spec"><strong>203 CV</strong>Potencia</div>
+              <div class="spec"><strong>207 kg</strong>Peso</div>
+            </div>
+            <div class="pfooter">
+              <span class="pprecio">$18,500</span>
+              <button type="button" class="btn-ver" data-mid="1">Ver detalle</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-12 col-sm-6 col-xl-3">
+        <article class="pcard h-100 aos">
+          <div class="pimg" style="background-image:url('img/img6.jpg');background-size:cover;background-position:center;"></div>
+          <div class="pbody">
+            <p class="pmarca">BMW</p>
+            <h3 class="pnom">R1250 GS</h3>
+            <div class="pspecs">
+              <div class="spec"><strong>1254cc</strong>Motor</div>
+              <div class="spec"><strong>136 CV</strong>Potencia</div>
+              <div class="spec"><strong>249 kg</strong>Peso</div>
+            </div>
+            <div class="pfooter">
+              <span class="pprecio">$22,900</span>
+              <button type="button" class="btn-ver" data-mid="2">Ver detalle</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-12 col-sm-6 col-xl-3">
+        <article class="pcard h-100 aos">
+          <div class="pimg" style="background-image:url('img/img7.jpeg');background-size:cover;background-position:center;"></div>
+          <div class="pbody">
+            <p class="pmarca">Yamaha</p>
+            <h3 class="pnom">MT-07</h3>
+            <div class="pspecs">
+              <div class="spec"><strong>689cc</strong>Motor</div>
+              <div class="spec"><strong>73 CV</strong>Potencia</div>
+              <div class="spec"><strong>184 kg</strong>Peso</div>
+            </div>
+            <div class="pfooter">
+              <span class="pprecio">$9,200</span>
+             <button type="button" class="btn-ver" data-mid="3">Ver detalle</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-12 col-sm-6 col-xl-3">
+        <article class="pcard h-100 aos">
+          <div class="pimg" style="background-image:url('img/img8.png');background-size:cover;background-position:center;"></div>
+          <div class="pbody">
+            <p class="pmarca">KTM</p>
+            <h3 class="pnom">Duke 390</h3>
+            <div class="pspecs">
+              <div class="spec"><strong>373cc</strong>Motor</div>
+              <div class="spec"><strong>44 CV</strong>Potencia</div>
+              <div class="spec"><strong>149 kg</strong>Peso</div>
+            </div>
+            <div class="pfooter">
+              <span class="pprecio">$6,800</span>
+              <button type="button" class="btn-ver" data-mid="4">Ver detalle</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- MODAL DETALLE -->
+<div class="modal fade" id="motoModal" tabindex="-1" aria-labelledby="motoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="motoModalLabel">Detalle del modelo</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <div class="m-moto-ico" id="mIco"></div>
+        <p class="pmarca mb-1" id="mMarca">—</p>
+        <h3 class="pnom mb-1" id="mNom">—</h3>
+        <p class="sec-ey mb-3" id="mTipo">—</p>
+        <div class="m-row"><span class="m-lab">Motor</span><span class="m-val" id="mMotor">—</span></div>
+        <div class="m-row"><span class="m-lab">Potencia</span><span class="m-val" id="mPot">—</span></div>
+        <div class="m-row"><span class="m-lab">Torque</span><span class="m-val" id="mTorq">—</span></div>
+        <div class="m-row"><span class="m-lab">Peso</span><span class="m-val" id="mPeso">—</span></div>
+        <div class="m-row"><span class="m-lab">Depósito</span><span class="m-val" id="mDep">—</span></div>
+        <div class="m-row"><span class="m-lab">Color</span><span class="m-val" id="mColor">—</span></div>
+      </div>
+      <div class="modal-footer justify-content-between">
+        <span class="pprecio" id="mPrecio">—</span>
+        <div class="d-flex gap-2">
+          <button class="btn-ver" data-bs-dismiss="modal">Cerrar</button>
+          <a href="componentes/contacto.html" class="btn-ms" style="padding:.52rem 1.2rem;font-size:.62rem;">Consultar <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GALERÍA -->
+<section class="sec-galeria" aria-labelledby="tit-galeria">
+  <div class="container">
+
+    <div class="mb-5 text-center aos">
+      <span class="sec-ey">Momentos sobre ruedas</span>
+      <h2 class="sec-tit" id="tit-galeria">Galería</h2>
+    </div>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item big">
+        <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&auto=format&fit=crop" alt="Moto deportiva">
+        <div class="overlay">Velocidad</div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1580310614729-ccd69652491d?w=1200&auto=format&fit=crop" alt="Moto adventure">
+        <div class="overlay">Aventura</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1517846693594-1567da72af75?w=1200&auto=format&fit=crop" alt="Moto urbana">
+        <div class="overlay">Ciudad</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUnx2SYzWxD0xfi_xAdNmXtRm7rT4ahvQX5Q&s" alt="Moto premium">
+        <div class="overlay">Libertad</div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=1200&auto=format&fit=crop" alt="Moto premium">
+        <div class="overlay">Diseño</div>
+      </div>
+      
+      <div class="gallery-item wide">
+        <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1200&auto=format&fit=crop" alt="Moto carretera">
+        <div class="overlay">Libertad</div>
+      </div>
+
+      <div class="gallery-item wide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo9W2nUW8TnsAENd_DJyVz7wouWpMbTk_0jQ&s" alt="Moto carretera">
+        <div class="overlay">Diseñ<object data="" type=""></object></div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-12 col-lg-4">
+        <p class="f-brand">MOTO<span style="color:var(--grc)">SPEED</span></p>
+        <p class="f-tag">Tu concesionario de confianza</p>
+        <p style="font-size:.84rem;color:var(--grc);max-width:290px;">Más de 18 años acercando la mejor tecnología en motocicletas a los apasionados del motor.</p>
+      </div>
+      <div class="col-6 col-lg-2">
+
+      </div>
+      <div class="col-6 col-lg-2">
+        <p class="f-head">Categorías</p>
+        <ul class="f-links">
+          <li><a href="#">Deportivas</a></li>
+          <li><a href="#">Adventure</a></li>
+          <li><a href="#">Urbanas</a></li>
+          <li><a href="#">Naked</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-4">
+        <p class="f-head">Contáctanos</p>
+        <ul class="f-links">
+          <li><a href="tel:+59171234567"><i class="bi bi-telephone me-2"></i>+591 7 123 4567</a></li>
+          <li><a href="mailto:info@motospeed.com"><i class="bi bi-envelope me-2"></i>info@motospeed.com</a></li>
+          <li style="color:var(--grc);font-size:.84rem;"><i class="bi bi-geo-alt me-2"></i>Av. Montes 1234, La Paz, Bolivia</li>
+          <li style="color:var(--grc);font-size:.84rem;"><i class="bi bi-clock me-2"></i>Lun – Sáb: 08:00 – 18:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bot">
+      <p class="f-copy">&copy; 2025 MotoSpeed. Todos los derechos reservados.</p>
+      <p class="f-copy">Diseñado para apasionados del motor.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts: Bootstrap JS + efecto scroll navbar -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/inicio.js"></script>
+
+</body>
+</html>

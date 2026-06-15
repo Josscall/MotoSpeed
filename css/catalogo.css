@@ -1,0 +1,72 @@
+body {
+    background: #ffffff;
+    color: #111;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+.filtro-btn {
+    background: white;
+    color: #333;
+    border: 1px solid #999;
+    transition: .3s;
+}
+
+.filtro-btn:hover,
+.filtro-btn.active {
+    background: black;
+    color: white;
+}
+table {
+    border: 1px solid #ccc;
+}
+thead {
+    background: #111;
+    color: white;
+}
+th {
+    cursor: pointer;
+}
+td {
+    color: #222 !important;
+}
+
+.table-hover tbody tr:hover {
+    background: #f2f2f2 !important;
+}
+input {
+    background: white !important;
+    border: 1px solid #999 !important;
+}
+
+input::placeholder {
+    color: #666 !important;
+}
+.modal-content {
+    border-radius: 10px;
+}
+
+#motoImg {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+}

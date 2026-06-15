@@ -1,0 +1,165 @@
+
+body {
+  background: white;
+  color: #111;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  background: black !important;
+}
+.navbar-brand, .navbar-brand span, .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-toggler {
+  filter: invert(1);
+}
+
+.sec-intro, .sec-vals {
+  background: white;
+  padding: 100px 0 60px;
+}
+
+.sec-tit {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+}
+.sec-ey {
+  color: #555;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-left: 3px solid black;
+  padding-left: 10px;
+}
+.intro-body {
+  color: #333;
+  line-height: 1.5;
+}
+
+.intro-stat {
+  background: #f5f5f5;
+  border-radius: 16px;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.intro-stat-n {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: black;
+}
+.intro-stat-l {
+  font-size: 0.7rem;
+  color: #555;
+}
+
+
+.btn-ms {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: black;
+  color: white;
+  border-radius: 40px;
+  padding: 0.6rem 1.6rem;
+  font-weight: bold;
+}
+.btn-ms:hover {
+  background: #333;
+}
+
+.intro-img {
+  width: 100%;
+  border-radius: 24px;
+  transform: scaleX(-1);
+}
+
+.val-card {
+  background: #fafafa;
+  border-radius: 24px;
+  padding: 1.8rem;
+  text-align: center;
+  border: 1px solid #eee;
+}
+.val-ico {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+.val-tit {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+.val-desc {
+  color: #444;
+  font-size: 0.9rem;
+}
+
+footer {
+  background: black;
+  color: #ccc;
+  padding: 2.5rem 0 1.2rem;
+  margin-top: 2rem;
+}
+.f-brand {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.f-tag {
+  color: #aaa;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+.f-head {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+.f-links {
+  list-style: none;
+  padding-left: 0;
+}
+.f-links li {
+  margin-bottom: 0.5rem;
+}
+.f-links a {
+  color: #aaa;
+}
+.f-links a:hover {
+  color: white;
+}
+.f-bot {
+  border-top: 1px solid #222;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.f-copy {
+  font-size: 0.7rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .sec-intro, .sec-vals {
+    padding: 80px 0 40px;
+  }
+  .intro-stat {
+    padding: 0.4rem 0.8rem;
+  }
+}
