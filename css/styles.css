@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600;700&display=swap');
 :root {
-  --ng: #ffffff;        
+  --ng: #000000;        
   --ng2: #111111;       
   --gro: #1c1c1c;
   --grm: #2e2e2e;
@@ -18,7 +18,7 @@
   padding: 0;
 }
 body {
-  background: var(--ng);
+  background: white;
   color: #111111;       
   font-family: var(--fb);
   overflow-x: hidden;
